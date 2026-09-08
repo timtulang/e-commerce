@@ -100,12 +100,12 @@ export const Checkout = () => {
           {/* Section 3: Transfer & Confirm */}
           <div className="bg-black border-[8px] border-accent p-8 shadow-[16px_16px_0_white] relative rotate-[1deg]">
             <div className="flex justify-between items-center mb-8 border-b-4 border-gray-700 pb-4">
-              <span className="font-display text-4xl text-white uppercase tracking-widest">Total Authorization</span>
+              <span className="font-display text-4xl text-white uppercase tracking-widest">Total</span>
               <span className="font-chaos text-6xl text-accent">${finalTotal.toFixed(2)}</span>
             </div>
             
             {/* Fake Payment Input */}
-            <input type="text" required placeholder="CARD NUMBER (MOCK)" className="w-full bg-[#18181b] border-4 border-gray-700 text-white p-4 font-display text-3xl uppercase tracking-widest focus:border-accent focus:outline-none focus:shadow-[4px_4px_0_white] skew-x-[-2deg] mb-8 placeholder:text-gray-600" />
+            <input type="text" required placeholder="CARD NUMBER" className="w-full bg-[#18181b] border-4 border-gray-700 text-white p-4 font-display text-3xl uppercase tracking-widest focus:border-accent focus:outline-none focus:shadow-[4px_4px_0_white] skew-x-[-2deg] mb-8 placeholder:text-gray-600" />
 
             <Button 
               type="submit"

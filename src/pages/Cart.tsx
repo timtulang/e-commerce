@@ -52,7 +52,7 @@ export const Cart = () => {
           <div className="mb-12 relative">
             <h1 className="font-display text-8xl md:text-[8rem] uppercase tracking-tighter text-white leading-[0.8]" style={{ textShadow: '8px 8px 0px black' }}>
               ACQUIRED <br/> 
-              <span className="text-accent bg-white px-4" style={{ WebkitTextStroke: '0px', textShadow: '4px 4px 0px black' }}>ASSETS</span>
+              <span className="text-accent px-4" style={{ WebkitTextStroke: '0px', textShadow: '4px 4px 0px black' }}>ASSETS</span>
             </h1>
           </div>
 
@@ -94,7 +94,7 @@ export const Cart = () => {
                         onClick={() => removeItem(item.product.id, item.selectedVariant)}
                         className="font-display text-2xl text-gray-400 hover:text-accent uppercase tracking-widest underline underline-offset-4"
                       >
-                        Jettison
+                        Remove
                       </button>
                     </div>
                   </div>
