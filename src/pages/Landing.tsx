@@ -41,11 +41,11 @@ export const Landing = () => {
               09
             </span>
             <span className="font-display text-[4rem] leading-[0.8] text-white" style={{ WebkitTextStroke: '2px black' }}>
-              / 08
+              / 09
             </span>
           </div>
           <div className="bg-white text-black font-display text-4xl px-4 py-1 border-4 border-black w-fit rotate-[-4deg] shadow-[4px_4px_0_rgba(0,0,0,1)]" style={{ clipPath: 'polygon(0 0, 100% 5%, 95% 100%, 5% 95%)' }}>
-            TUESDAY
+            WEDNESDAY
           </div>
           <div className="mt-2 bg-[#ff00ff] border-4 border-black w-12 h-12 rotate-12 flex items-center justify-center shadow-[4px_4px_0_rgba(0,0,0,1)]">
             <span className="font-display text-3xl text-white">☁</span>
@@ -62,7 +62,7 @@ export const Landing = () => {
           <h1 
             className="font-display text-[28vw] md:text-[20rem] uppercase tracking-tighter leading-[0.8] text-white"
           >
-            BRAMBLE
+            SNUG REBEL
           </h1>
         </motion.div>
 
@@ -113,7 +113,7 @@ export const Landing = () => {
             className="whitespace-nowrap font-display text-3xl uppercase tracking-widest text-black flex gap-8"
           >
             {[...Array(10)].map((_, i) => (
-              <span key={i}>★ BRAMBLE DROP 04 ★ SECURE THE ROUTE</span>
+              <span key={i}> ★ SNUG REBEL DROP 01 ★ SECURE THE LOOT </span>
             ))}
           </motion.div>
         </div>

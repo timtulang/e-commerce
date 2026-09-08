@@ -26,7 +26,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
       </main>
       
       <footer className="relative bg-black border-t-8 border-white text-white py-12 px-8 flex justify-between items-center font-display text-4xl uppercase tracking-tighter z-20">
-        <span className="skew-x-[-10deg]">Bramble <span className="text-accent">©2026</span></span>
+        <span className="skew-x-[-10deg]">Snug Rebel <span className="text-accent">©2026</span></span>
         <span className="text-xl font-chaos tracking-widest uppercase">Steal Your Heart</span>
       </footer>
     </div>

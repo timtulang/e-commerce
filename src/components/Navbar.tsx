@@ -6,8 +6,8 @@ import { useCartStore } from '../store/useCartStore';
 const menuItems = [
   { name: 'Hideout', path: '/', angle: 'rotate-3' },
   { name: 'Shop', path: '/products', angle: '-rotate-6' },
-  { name: 'Equip', path: '/equip', angle: 'rotate-2' }, // Points to Equip
-  { name: 'Intel', path: '/intel', angle: '-rotate-12' }, // Points to Intel
+  { name: 'Featured', path: '/equip', angle: 'rotate-2' }, // Points to Equip
+  { name: 'About Us', path: '/intel', angle: '-rotate-12' }, // Points to Intel
 ];
 
 const Navbar = () => {
