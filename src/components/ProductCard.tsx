@@ -20,7 +20,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           </span>
         )}
         {product.isSale && (
-          <span className="bg-foreground text-white font-display uppercase tracking-wider px-3 py-1 text-sm clip-path-angled shadow-brutal">
+          <span className="bg-red-600 text-white font-display uppercase tracking-wider px-3 py-1 text-sm clip-path-angled shadow-brutal">
             Sale
           </span>
         )}
