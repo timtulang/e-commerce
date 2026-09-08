@@ -1,0 +1,57 @@
+import { type Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: 'p_1',
+    name: 'Phantom Heavyweight Hoodie',
+    price: 85.00,
+    category: 'Outerwear',
+    image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800&auto=format&fit=crop',
+    description: 'Constructed from 500gsm French terry. Dropped shoulders, cropped body, and distressed hems. A brutalist approach to comfort.',
+    variants: ['S', 'M', 'L', 'XL'],
+    rating: 4.8,
+    isNew: true,
+  },
+  {
+    id: 'p_2',
+    name: 'Graphic Tee - "Vandal"',
+    price: 35.00,
+    category: 'T-Shirts',
+    image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop',
+    description: 'Boxy fit graphic t-shirt featuring high-density screen print. Acid-washed for a vintage, abrasive feel.',
+    variants: ['M', 'L', 'XL'],
+    rating: 4.5,
+  },
+  {
+    id: 'p_3',
+    name: 'Tactical Cargo Pants',
+    price: 120.00,
+    category: 'Bottoms',
+    image: 'https://images.unsplash.com/photo-1628717341663-0007b0ee2597?q=80&w=800&auto=format&fit=crop',
+    description: 'Ripstop nylon construction with aggressive pocket styling. Articulated knees and adjustable ankle toggles.',
+    variants: ['30', '32', '34', '36'],
+    rating: 4.9,
+    isSale: true,
+  },
+  {
+    id: 'p_4',
+    name: 'Oversized Canvas Tote',
+    price: 45.00,
+    category: 'Accessories',
+    image: 'https://images.unsplash.com/photo-1591561954557-26941169b49e?q=80&w=800&auto=format&fit=crop',
+    description: 'Heavy duty 18oz canvas. Features contrasting reinforced webbing and our signature jagged logo embroidery.',
+    variants: ['Black', 'Bone'],
+    rating: 4.2,
+  },
+  {
+    id: 'p_5',
+    name: 'Rebellion High-Tops',
+    price: 160.00,
+    category: 'Footwear',
+    image: 'https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&w=800&auto=format&fit=crop',
+    description: 'Chunky silhouette with overlapping suede and leather panels. Distressed midsole treatment.',
+    variants: ['8', '9', '10', '11', '12'],
+    rating: 4.7,
+    isNew: true,
+  }
+];

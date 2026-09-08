@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Teko:wght@600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-background: #09090b;
+  --color-surface: #18181b;
+  --color-text: #ffffff;
+  --color-accent: var(--route-accent);
+  
+  /* The new chaotic typography system */
+  --font-display: "Teko", sans-serif;
+  --font-chaos: "Permanent Marker", cursive;
+  --font-sans: "Inter", system-ui, sans-serif;
+  
+  --shadow-brutal: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+  --shadow-p5: 6px 6px 0px 0px var(--color-accent);
+}
+
+:root {
+  --route-accent: #d31717; 
+}
+
+/* Forcefully override the exact Tailwind variable on the wrapper div */
+.theme-landing { --color-accent: #d31717 !important; }
+.theme-list { --color-accent: #0a31de !important; } /* Electric Blue */
+.theme-details { --color-accent: #9333ea !important; }
+.theme-cart { --color-accent: #ea580c !important; }
+.theme-checkout { --color-accent: #16a34a !important; }
+.theme-equip { --color-accent: #eab308 !important; } /* Cyber Yellow */
+.theme-intel { --color-accent: #71717a !important; } /* Classified Slate/Gray */
+
+@layer base {
+  body {
+    @apply bg-background text-text font-sans antialiased overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .clip-path-p5-button { clip-path: polygon(8% 0, 100% 0, 92% 100%, 0% 100%); }
+  .clip-path-jagged-border { clip-path: polygon(0 2%, 100% 0, 98% 98%, 2% 100%); }
+  .clip-path-diagonal { clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+  .clip-path-triangle { clip-path: polygon(50% 0%, 0% 100%, 100% 100%); }
+  .clip-path-triangle-inverted { clip-path: polygon(0% 0%, 100% 0%, 50% 100%); }
+}
